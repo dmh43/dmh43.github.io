@@ -9,4 +9,4 @@
       (dom/h1 nil (:text data)))))
 
 (om/root widget {:text "Hello world!"}
-         {:target (. js/document (getElementById "my-app"))})
+         {:target (. js/document (getElementById "app"))})

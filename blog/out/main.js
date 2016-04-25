@@ -60136,45 +60136,45 @@ goog.require("cljs.core");
 goog.require("om.core");
 goog.require("om.dom");
 blog.core.widget = function blog$core$widget(data, owner) {
-  if (typeof blog.core.t_blog$core10530 !== "undefined") {
+  if (typeof blog.core.t_blog$core9842 !== "undefined") {
   } else {
-    blog.core.t_blog$core10530 = function(widget, data, owner, meta10531) {
+    blog.core.t_blog$core9842 = function(widget, data, owner, meta9843) {
       this.widget = widget;
       this.data = data;
       this.owner = owner;
-      this.meta10531 = meta10531;
+      this.meta9843 = meta9843;
       this.cljs$lang$protocol_mask$partition0$ = 393216;
       this.cljs$lang$protocol_mask$partition1$ = 0;
     };
-    blog.core.t_blog$core10530.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = function(_10532, meta10531__$1) {
+    blog.core.t_blog$core9842.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = function(_9844, meta9843__$1) {
       var self__ = this;
-      var _10532__$1 = this;
-      return new blog.core.t_blog$core10530(self__.widget, self__.data, self__.owner, meta10531__$1);
+      var _9844__$1 = this;
+      return new blog.core.t_blog$core9842(self__.widget, self__.data, self__.owner, meta9843__$1);
     };
-    blog.core.t_blog$core10530.prototype.cljs$core$IMeta$_meta$arity$1 = function(_10532) {
+    blog.core.t_blog$core9842.prototype.cljs$core$IMeta$_meta$arity$1 = function(_9844) {
       var self__ = this;
-      var _10532__$1 = this;
-      return self__.meta10531;
+      var _9844__$1 = this;
+      return self__.meta9843;
     };
-    blog.core.t_blog$core10530.prototype.om$core$IRender$ = true;
-    blog.core.t_blog$core10530.prototype.om$core$IRender$render$arity$1 = function(this$) {
+    blog.core.t_blog$core9842.prototype.om$core$IRender$ = true;
+    blog.core.t_blog$core9842.prototype.om$core$IRender$render$arity$1 = function(this$) {
       var self__ = this;
       var this$__$1 = this;
       return React.DOM.h1(null, om.util.force_children.call(null, (new cljs.core.Keyword(null, "text", "text", -1790561697)).cljs$core$IFn$_invoke$arity$1(self__.data)));
     };
-    blog.core.t_blog$core10530.getBasis = function() {
+    blog.core.t_blog$core9842.getBasis = function() {
       return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.with_meta(new cljs.core.Symbol(null, "widget", "widget", 786562584, null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "arglists", "arglists", 1661989754), cljs.core.list(new cljs.core.Symbol(null, "quote", "quote", 1377916282, null), cljs.core.list(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "data", 
-      "data", 1407862150, null), new cljs.core.Symbol(null, "owner", "owner", 1247919588, null)], null)))], null)), new cljs.core.Symbol(null, "data", "data", 1407862150, null), new cljs.core.Symbol(null, "owner", "owner", 1247919588, null), new cljs.core.Symbol(null, "meta10531", "meta10531", -1640481643, null)], null);
+      "data", 1407862150, null), new cljs.core.Symbol(null, "owner", "owner", 1247919588, null)], null)))], null)), new cljs.core.Symbol(null, "data", "data", 1407862150, null), new cljs.core.Symbol(null, "owner", "owner", 1247919588, null), new cljs.core.Symbol(null, "meta9843", "meta9843", -697110055, null)], null);
     };
-    blog.core.t_blog$core10530.cljs$lang$type = true;
-    blog.core.t_blog$core10530.cljs$lang$ctorStr = "blog.core/t_blog$core10530";
-    blog.core.t_blog$core10530.cljs$lang$ctorPrWriter = function(this__6816__auto__, writer__6817__auto__, opt__6818__auto__) {
-      return cljs.core._write.call(null, writer__6817__auto__, "blog.core/t_blog$core10530");
+    blog.core.t_blog$core9842.cljs$lang$type = true;
+    blog.core.t_blog$core9842.cljs$lang$ctorStr = "blog.core/t_blog$core9842";
+    blog.core.t_blog$core9842.cljs$lang$ctorPrWriter = function(this__6816__auto__, writer__6817__auto__, opt__6818__auto__) {
+      return cljs.core._write.call(null, writer__6817__auto__, "blog.core/t_blog$core9842");
     };
-    blog.core.__GT_t_blog$core10530 = function blog$core$widget_$___GT_t_blog$core10530(widget__$1, data__$1, owner__$1, meta10531) {
-      return new blog.core.t_blog$core10530(widget__$1, data__$1, owner__$1, meta10531);
+    blog.core.__GT_t_blog$core9842 = function blog$core$widget_$___GT_t_blog$core9842(widget__$1, data__$1, owner__$1, meta9843) {
+      return new blog.core.t_blog$core9842(widget__$1, data__$1, owner__$1, meta9843);
     };
   }
-  return new blog.core.t_blog$core10530(blog$core$widget, data, owner, cljs.core.PersistentArrayMap.EMPTY);
+  return new blog.core.t_blog$core9842(blog$core$widget, data, owner, cljs.core.PersistentArrayMap.EMPTY);
 };
-om.core.root.call(null, blog.core.widget, new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "text", "text", -1790561697), "Hello world!"], null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "target", "target", 253001721), document.getElementById("my-app")], null));
+om.core.root.call(null, blog.core.widget, new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "text", "text", -1790561697), "Hello world!"], null), new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null, "target", "target", 253001721), document.getElementById("app")], null));
